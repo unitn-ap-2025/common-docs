@@ -1,0 +1,2 @@
+createSrcSidebar('[["common_game",["",[["components",[],["asteroid.rs","energy_cell.rs","planet.rs","resource.rs","rocket.rs","sunray.rs"]],["protocols",[],["messages.rs","orchestrator.rs"]]],["components.rs","lib.rs","protocols.rs"]]],["paste",["",[],["attr.rs","error.rs","lib.rs","segment.rs"]]]]');
+//{"start":19,"fragment_lengths":[216,63]}
