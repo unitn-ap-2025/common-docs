@@ -1,0 +1,1 @@
+rd_("kcommon_gameklazy_staticclogepaste")
