@@ -1,1 +1,0 @@
-rd_("kcommon_gameklazy_staticepaste")

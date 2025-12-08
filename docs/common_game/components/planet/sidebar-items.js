@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["PlanetType"],"struct":["Planet","PlanetState"],"trait":["PlanetAI"]};
+window.SIDEBAR_ITEMS = {"enum":["PlanetType"],"struct":["DummyPlanetState","Planet","PlanetConstraints","PlanetState"],"trait":["PlanetAI"]};

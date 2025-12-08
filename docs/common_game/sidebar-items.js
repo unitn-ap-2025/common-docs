@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["components","protocols"]};
+window.SIDEBAR_ITEMS = {"mod":["components","logging","protocols"]};
