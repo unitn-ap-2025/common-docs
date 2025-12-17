@@ -1,46 +1,57 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Planet module"><title>common_game::components::planet - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2"href="../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../../static.files/rustdoc-ca0dd0c4.css"><meta name="rustdoc-vars" data-root-path="../../../" data-static-root-path="../../../static.files/" data-current-crate="common_game" data-themes="" data-resource-suffix="" data-rustdoc-version="1.92.0 (ded5c06cf 2025-12-08)" data-channel="1.92.0" data-search-js="search-d69d8955.js" data-stringdex-js="stringdex-c3e638e9.js" data-settings-js="settings-c38705f0.js" ><script src="../../../static.files/storage-e2aeef58.js"></script><script defer src="../sidebar-items.js"></script><script defer src="../../../static.files/main-ce535bd0.js"></script><noscript><link rel="stylesheet" href="../../../static.files/noscript-263c88ec.css"></noscript><link rel="alternate icon" type="image/png" href="../../../static.files/favicon-32x32-eab170b8.png"><link rel="icon" type="image/svg+xml" href="../../../static.files/favicon-044be391.svg"></head><body class="rustdoc mod"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><rustdoc-topbar><h2><a href="#">Module planet</a></h2></rustdoc-topbar><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../common_game/index.html">common_<wbr>game</a><span class="version">1.1.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">Module planet</a></h2><h3><a href="#">Sections</a></h3><ul class="block top-toc"><li><a href="#planet-module" title="Planet module">Planet module</a><ul><li><a href="#examples" title="Examples">Examples</a></li></ul></li></ul><h3><a href="#structs">Module Items</a></h3><ul class="block"><li><a href="#structs" title="Structs">Structs</a></li><li><a href="#enums" title="Enums">Enums</a></li><li><a href="#traits" title="Traits">Traits</a></li></ul></section><div id="rustdoc-modnav"><h2><a href="../index.html">In common_<wbr>game::<wbr>components</a></h2></div></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><div class="width-limiter"><section id="main-content" class="content"><div class="main-heading"><div class="rustdoc-breadcrumbs"><a href="../../index.html">common_game</a>::<wbr><a href="../index.html">components</a></div><h1>Module <span>planet</span>&nbsp;<button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a class="src" href="../../../src/common_game/components/planet.rs.html#1-1197">Source</a> </span></div><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><h2 id="planet-module"><a class="doc-anchor" href="#planet-module">§</a>Planet module</h2>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Planet module"><title>common_game::components::planet - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2"href="../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../../static.files/rustdoc-ca0dd0c4.css"><meta name="rustdoc-vars" data-root-path="../../../" data-static-root-path="../../../static.files/" data-current-crate="common_game" data-themes="" data-resource-suffix="" data-rustdoc-version="1.92.0 (ded5c06cf 2025-12-08)" data-channel="1.92.0" data-search-js="search-d69d8955.js" data-stringdex-js="stringdex-c3e638e9.js" data-settings-js="settings-c38705f0.js" ><script src="../../../static.files/storage-e2aeef58.js"></script><script defer src="../sidebar-items.js"></script><script defer src="../../../static.files/main-ce535bd0.js"></script><noscript><link rel="stylesheet" href="../../../static.files/noscript-263c88ec.css"></noscript><link rel="alternate icon" type="image/png" href="../../../static.files/favicon-32x32-eab170b8.png"><link rel="icon" type="image/svg+xml" href="../../../static.files/favicon-044be391.svg"></head><body class="rustdoc mod"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><rustdoc-topbar><h2><a href="#">Module planet</a></h2></rustdoc-topbar><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../common_game/index.html">common_<wbr>game</a><span class="version">2.0.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">Module planet</a></h2><h3><a href="#">Sections</a></h3><ul class="block top-toc"><li><a href="#planet-module" title="Planet module">Planet module</a><ul><li><a href="#examples" title="Examples">Examples</a></li></ul></li></ul><h3><a href="#structs">Module Items</a></h3><ul class="block"><li><a href="#structs" title="Structs">Structs</a></li><li><a href="#enums" title="Enums">Enums</a></li><li><a href="#traits" title="Traits">Traits</a></li></ul></section><div id="rustdoc-modnav"><h2><a href="../index.html">In common_<wbr>game::<wbr>components</a></h2></div></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><div class="width-limiter"><section id="main-content" class="content"><div class="main-heading"><div class="rustdoc-breadcrumbs"><a href="../../index.html">common_game</a>::<wbr><a href="../index.html">components</a></div><h1>Module <span>planet</span>&nbsp;<button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a class="src" href="../../../src/common_game/components/planet.rs.html#1-1317">Source</a> </span></div><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><h2 id="planet-module"><a class="doc-anchor" href="#planet-module">§</a>Planet module</h2>
 <p>This module provides common definitions for planets and their associated types
-that need be used by a group to construct its own planet.
+that will be used by a group to construct its own planet.
 The <a href="struct.Planet.html" title="struct common_game::components::planet::Planet">Planet</a> struct is the <strong>main component</strong>: an instance of it represents the
-actual planet and contains all the logic and state (see <a href="struct.PlanetState.html" title="struct common_game::components::planet::PlanetState">PlanetState</a>) needed to work as one, in fact
+actual planet and contains all the logic and state (see <a href="struct.PlanetState.html" title="struct common_game::components::planet::PlanetState"><code>PlanetState</code></a>) needed to work as one, in fact
 this is what the orchestrator will interact with.</p>
-<p>You can instantiate a new planet by calling the <a href="struct.Planet.html#method.new" title="associated function common_game::components::planet::Planet::new">Planet::new</a> constructor method and passing
+<p>You can instantiate a new planet by calling the <a href="struct.Planet.html#method.new" title="associated function common_game::components::planet::Planet::new"><code>Planet::new</code></a> constructor method and passing
 valid construction parameters to it (look into its documentation to learn more).</p>
-<p>One of the construction parameters is a group-defined struct that implements the <a href="trait.PlanetAI.html" title="trait common_game::components::planet::PlanetAI">PlanetAI</a> trait,
+<p>One of the construction parameters is a planet is a group-defined struct that implements the <a href="trait.PlanetAI.html" title="trait common_game::components::planet::PlanetAI"><code>PlanetAI</code></a> trait,
 which defines several methods for handling messages coming from the orchestrator and the explorers. This is
-the core of each group’s planet implementation, as it defines the planet <em>behaviour</em>, that is
+the core of each group’s planet implementation, as it defines the planet <em>behavior</em>, that is
 how a planet “reacts” to the possible events or requests.</p>
 <h3 id="examples"><a class="doc-anchor" href="#examples">§</a>Examples</h3>
 <p>Intended usage (for planet definition, by groups):</p>
 
 <div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>crossbeam_channel::{Sender, Receiver};
-<span class="kw">use </span>common_game::components::planet::{Planet, PlanetAI, PlanetState, PlanetType};
+<span class="kw">use </span>common_game::components::planet::{Planet, PlanetAI, PlanetState, PlanetType, DummyPlanetState};
 <span class="kw">use </span>common_game::components::resource::{Combinator, Generator};
 <span class="kw">use </span>common_game::components::rocket::Rocket;
-<span class="kw">use </span>common_game::protocols::messages;
-
+<span class="kw">use </span>common_game::components::sunray::Sunray;
+<span class="kw">use </span>common_game::protocols::planet_explorer;
+<span class="kw">use </span>common_game::protocols::orchestrator_planet;
+<span class="kw">use </span>common_game::protocols::planet_explorer::ExplorerToPlanet;
 <span class="comment">// Group-defined AI struct
 </span><span class="kw">struct </span>AI { <span class="comment">/* your AI state here */ </span>};
 
 <span class="kw">impl </span>PlanetAI <span class="kw">for </span>AI {
-    <span class="kw">fn </span>handle_orchestrator_msg(
+    <span class="kw">fn </span>handle_sunray(
         <span class="kw-2">&amp;mut </span><span class="self">self</span>,
         state: <span class="kw-2">&amp;mut </span>PlanetState,
         generator: <span class="kw-2">&amp;</span>Generator,
         combinator: <span class="kw-2">&amp;</span>Combinator,
-        msg: messages::OrchestratorToPlanet
-    ) -&gt; <span class="prelude-ty">Option</span>&lt;messages::PlanetToOrchestrator&gt; {
+        sunray: Sunray
+    ) {
         <span class="comment">// your handler code here...
-        </span><span class="prelude-val">None
     </span>}
+
+    <span class="kw">fn </span>handle_internal_state_req(
+        <span class="kw-2">&amp;mut </span><span class="self">self</span>,
+        state: <span class="kw-2">&amp;mut </span>PlanetState,
+        generator: <span class="kw-2">&amp;</span>Generator,
+        combinator: <span class="kw-2">&amp;</span>Combinator
+    ) -&gt; DummyPlanetState {
+        <span class="comment">// your handler code here...
+        </span>state.to_dummy()
+    }
 
     <span class="kw">fn </span>handle_explorer_msg(
         <span class="kw-2">&amp;mut </span><span class="self">self</span>,
         state: <span class="kw-2">&amp;mut </span>PlanetState,
         generator: <span class="kw-2">&amp;</span>Generator,
         combinator: <span class="kw-2">&amp;</span>Combinator,
-        msg: messages::ExplorerToPlanet
-    ) -&gt; <span class="prelude-ty">Option</span>&lt;messages::PlanetToExplorer&gt; {
+        msg: ExplorerToPlanet
+    ) -&gt; <span class="prelude-ty">Option</span>&lt;planet_explorer::PlanetToExplorer&gt; {
         <span class="comment">// your handler code here...
         </span><span class="prelude-val">None
     </span>}
@@ -54,19 +65,16 @@ how a planet “reacts” to the possible events or requests.</p>
         <span class="comment">// your handler code here...
         </span><span class="prelude-val">None
     </span>}
-
-    <span class="kw">fn </span>start(<span class="kw-2">&amp;mut </span><span class="self">self</span>, state: <span class="kw-2">&amp;</span>PlanetState) { <span class="comment">/* startup code */ </span>}
-    <span class="kw">fn </span>stop(<span class="kw-2">&amp;mut </span><span class="self">self</span>, state: <span class="kw-2">&amp;</span>PlanetState) { <span class="comment">/* stop code */ </span>}
 }
 
 <span class="comment">// This is the group's "export" function. It will be called by
 // the orchestrator to spawn your planet.
 </span><span class="kw">pub fn </span>create_planet(
-    rx_orchestrator: Receiver&lt;messages::OrchestratorToPlanet&gt;,
-    tx_orchestrator: Sender&lt;messages::PlanetToOrchestrator&gt;,
-    rx_explorer: Receiver&lt;messages::ExplorerToPlanet&gt;,
+    id: u32,
+    rx_orchestrator: Receiver&lt;orchestrator_planet::OrchestratorToPlanet&gt;,
+    tx_orchestrator: Sender&lt;orchestrator_planet::PlanetToOrchestrator&gt;,
+    rx_explorer: Receiver&lt;planet_explorer::ExplorerToPlanet&gt;,
 ) -&gt; Planet {
-    <span class="kw">let </span>id = <span class="number">1</span>;
     <span class="kw">let </span>ai = AI {};
     <span class="kw">let </span>gen_rules = <span class="macro">vec!</span>[<span class="comment">/* your recipes */</span>];
     <span class="kw">let </span>comb_rules = <span class="macro">vec!</span>[<span class="comment">/* your recipes */</span>];
@@ -82,9 +90,11 @@ how a planet “reacts” to the possible events or requests.</p>
         rx_explorer,
     ).unwrap() <span class="comment">// Don't call .unwrap()! You should do error checking instead.
 </span>}</code></pre></div></div></details><h2 id="structs" class="section-header">Structs<a href="#structs" class="anchor">§</a></h2><dl class="item-table"><dt><a class="struct" href="struct.DummyPlanetState.html" title="struct common_game::components::planet::DummyPlanetState">Dummy<wbr>Planet<wbr>State</a></dt><dd>This is a dummy struct containing an overview of the internal state of a planet.
-Use <a href="struct.PlanetState.html#method.to_dummy" title="method common_game::components::planet::PlanetState::to_dummy">PlanetState::to_dummy</a> to construct one.</dd><dt><a class="struct" href="struct.Planet.html" title="struct common_game::components::planet::Planet">Planet</a></dt><dd>Main, top-level planet definition. This type is built on top of
-<a href="struct.PlanetState.html" title="struct common_game::components::planet::PlanetState">PlanetState</a>, <a href="enum.PlanetType.html" title="enum common_game::components::planet::PlanetType">PlanetType</a> and <a href="trait.PlanetAI.html" title="trait common_game::components::planet::PlanetAI">PlanetAI</a>, through composition.</dd><dt><a class="struct" href="struct.PlanetConstraints.html" title="struct common_game::components::planet::PlanetConstraints">Planet<wbr>Constraints</a></dt><dd>Contains planet rules constraints (see <a href="enum.PlanetType.html" title="enum common_game::components::planet::PlanetType">PlanetType</a>).</dd><dt><a class="struct" href="struct.PlanetState.html" title="struct common_game::components::planet::PlanetState">Planet<wbr>State</a></dt><dd>This struct is a representation of the internal state
-of the planet. Through its public methods, it gives access to the all resources
-of the planet:</dd></dl><h2 id="enums" class="section-header">Enums<a href="#enums" class="anchor">§</a></h2><dl class="item-table"><dt><a class="enum" href="enum.PlanetType.html" title="enum common_game::components::planet::PlanetType">Planet<wbr>Type</a></dt><dd>Planet types definitions, intended to be passed
+Use <a href="struct.PlanetState.html#method.to_dummy" title="method common_game::components::planet::PlanetState::to_dummy"><code>PlanetState::to_dummy</code></a> to construct one.</dd><dt><a class="struct" href="struct.Planet.html" title="struct common_game::components::planet::Planet">Planet</a></dt><dd>Main, top-level planet definition. This type is built on top of
+<a href="struct.PlanetState.html" title="struct common_game::components::planet::PlanetState"><code>PlanetState</code></a>, <a href="enum.PlanetType.html" title="enum common_game::components::planet::PlanetType"><code>PlanetType</code></a> and <a href="trait.PlanetAI.html" title="trait common_game::components::planet::PlanetAI"><code>PlanetAI</code></a>, through composition.</dd><dt><a class="struct" href="struct.PlanetConstraints.html" title="struct common_game::components::planet::PlanetConstraints">Planet<wbr>Constraints</a></dt><dd>Contains planet rules constraints (see <a href="enum.PlanetType.html" title="enum common_game::components::planet::PlanetType"><code>PlanetType</code></a>).</dd><dt><a class="struct" href="struct.PlanetState.html" title="struct common_game::components::planet::PlanetState">Planet<wbr>State</a></dt><dd>This struct is a representation of the internal state
+of the planet. Through its public methods, it gives access to the
+energy cells and rocket construction of the planet.</dd></dl><h2 id="enums" class="section-header">Enums<a href="#enums" class="anchor">§</a></h2><dl class="item-table"><dt><a class="enum" href="enum.PlanetType.html" title="enum common_game::components::planet::PlanetType">Planet<wbr>Type</a></dt><dd>Planet types definitions, intended to be passed
 to the planet constructor. Identifies the planet rules constraints,
-with each type having its own.</dd></dl><h2 id="traits" class="section-header">Traits<a href="#traits" class="anchor">§</a></h2><dl class="item-table"><dt><a class="trait" href="trait.PlanetAI.html" title="trait common_game::components::planet::PlanetAI">PlanetAI</a></dt><dd>The trait that defines the behaviour of a planet.</dd></dl></section></div></main></body></html>
+with each type having its own rules.</dd></dl><h2 id="traits" class="section-header">Traits<a href="#traits" class="anchor">§</a></h2><dl class="item-table"><dt><a class="trait" href="trait.PlanetAI.html" title="trait common_game::components::planet::PlanetAI">PlanetAI</a></dt><dd>The trait that defines the <strong>behavior</strong> of a planet, meaning how it reacts
+to messages coming from the orchestrator and explorers. This is done through trait methods
+acting as <em>handlers</em> for the messages.</dd></dl></section></div></main></body></html>

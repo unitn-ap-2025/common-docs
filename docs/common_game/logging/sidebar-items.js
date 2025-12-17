@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["ActorType","Channel","EventType"],"struct":["LogEvent"],"type":["Payload"]};
+window.SIDEBAR_ITEMS = {"enum":["ActorType","Channel","EventType"],"struct":["LogEvent","Participant"],"type":["Payload"]};

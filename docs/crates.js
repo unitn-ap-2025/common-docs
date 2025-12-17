@@ -1,2 +1,2 @@
-window.ALL_CRATES = ["common_game","crossbeam_channel","crossbeam_utils","lazy_static","log","paste"];
-//{"start":21,"fragment_lengths":[13,20,18,14,6,8]}
+window.ALL_CRATES = ["common_game","crossbeam_channel","crossbeam_utils","enum_as_inner","heck","lazy_static","log","paste","proc_macro2","quote","strum","strum_macros","syn","unicode_ident"];
+//{"start":21,"fragment_lengths":[13,20,18,16,7,14,6,8,14,8,8,15,6,16]}

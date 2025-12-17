@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["messages"]};
+window.SIDEBAR_ITEMS = {"mod":["orchestrator_explorer","orchestrator_planet","planet_explorer"]};

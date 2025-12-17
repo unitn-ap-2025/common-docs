@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ExplorerToPlanet","ExplorerToPlanetKind","PlanetToExplorer","PlanetToExplorerKind"]};

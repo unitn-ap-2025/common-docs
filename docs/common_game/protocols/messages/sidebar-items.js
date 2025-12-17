@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["ExplorerToOrchestrator","ExplorerToPlanet","OrchestratorToExplorer","OrchestratorToPlanet","PlanetToExplorer","PlanetToOrchestrator"]};
